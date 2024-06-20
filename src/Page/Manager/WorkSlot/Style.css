@@ -1,0 +1,6 @@
+/* Target the specific calendar */
+.custom-calendar {
+  .fc-unthemed .fc-daygrid-day.fc-day-today {
+    background-color: transparent !important;
+  }
+  }

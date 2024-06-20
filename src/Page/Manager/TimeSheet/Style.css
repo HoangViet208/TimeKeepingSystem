@@ -1,0 +1,64 @@
+/* styles.css */
+#cha:hover #out {
+  color: green; /* For example, change the text color to red */
+  font-weight: bold; /* You can add other styles as well */
+}
+#cha:hover #in {
+  color: red; /* For example, change the text color to red */
+  font-weight: bold; /* You can add other styles as well */
+}
+
+#cha:hover #work {
+  color: blue; /* For example, change the text color to red */
+  font-weight: bold; /* You can add other styles as well */
+}
+
+#cha:hover #active {
+  color: blueviolet; /* For example, change the text color to red */
+  font-weight: bold; /* You can add other styles as well */
+}
+#cha:hover #Coefficients {
+  color: orange; /* For example, change the text color to red */
+  font-weight: bold; /* You can add other styles as well */
+}
+/* styles.css */
+#total:hover #out {
+  color: green; /* For example, change the text color to red */
+}
+#total:hover #in {
+  color: red; /* For example, change the text color to red */
+}
+
+#total:hover #work {
+  color: blue; /* For example, change the text color to red */
+}
+/* For WebKit-based browsers (Chrome, Safari) */
+/* Customize the scrollbar track */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 6px; /* Adjust the height as per your requirement */
+}
+
+/* Customize the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+/* For Firefox */
+/* Set the scrollbar width and height to specific sizes */
+/* Note: This property may not be supported in older versions of Firefox */
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 #f3f3f3;
+}
+
+/* For Microsoft Edge (Chromium-based) */
+/* Set the scrollbar width and height to specific sizes */
+/* Note: This property may not be supported in older versions of Edge */
+@supports (-ms-overflow-style: none) {
+  .scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f3f3f3;
+  }
+}
